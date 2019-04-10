@@ -57,12 +57,10 @@ footer {
 }
 
 footer li {
-	
-font-size: 9pt !important;
+	font-size: 9pt !important;
 }
 
 
-
-a:after { 
-	content: " (" attr(href) ") ";
+footer li img {
+	display:none;
 }
