@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+mainNav, Nav, backdrop {
+	display:none;
+}
+footer, header, main, sidebar{
+	width: auto;
+	margin: 0;
+	padding: 0;
+	
+}
+
+header {
+	letter-spacing: Normal;
+	
+}
+
+container {
+	overflow: visible;
+}
+
+html, body, footer {
+	background: #fff;
+}
+
+.main {
+	border-left: none;
+	
+}
+
+aside {
+	display: none;
+}
+
+*{
+	color: #000000 !important;
+}
+
+h1 {
+	font-size: 30pt !important;
+	
+}
+
+h2 { font-size: 16pt !important;
+}
+
+p, li, ul {
+	font-size: 11pt !important;
+	
+}
+
+footer {
+	margin-top:15pt;
+	padding-top: 5pt;
+	
+}
+
+footer li {
+	
+font-size: 9pt !important;
+}
+
+
+
+a:after { 
+	content: " (" attr(href) ") ";
+}
