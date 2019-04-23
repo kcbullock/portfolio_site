@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+ 
+.container {
+	display: -webkit-flex;
+	display: flex;
+	flex-flow:column wrap;
+	-webkit-flex-flow: column wrap;
+  	justify-content: center;
+  	align-items: center;
+  	align-content: center;
+}
+
+.container div{
+	-webkit-flex:1;
+	flex: 1;
+	
+	
+}
+
+.container div:nth-of-type(1n+2) {
+	margin-left: 20px;
+	
+}
+
+.header{
+	align-content: flex-start;
+}
+
+.photographs {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 20px;
+    align-content: center;	
+	 
+}
+
+
+
+
+.navigation {
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+  	justify-content: flex-end;
+	
+}
+
+
+
+/* Small screens */
+@media all and (max-width: 950px) {
+  .navigation {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
